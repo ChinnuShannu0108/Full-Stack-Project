@@ -1,0 +1,185 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+
+<style>
+    *{
+      
+        text-decoration:solid;
+    }
+    .navbar{
+        background-color: brown;
+        border-color: black;
+        border-radius:10px;
+    }
+    .navdiv{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+       
+    }
+    .logo{
+
+font-size: 32px;
+color: aliceblue;
+font-weight:bold;
+font-style: oblique;
+padding-right: 6px;
+padding-left: 12px;
+padding-bottom: 8px;
+
+
+    }
+
+    .log
+    {
+
+
+        font-size:35px;
+        text-align: center;
+        font-style: oblique;
+        font-weight: bold;
+       
+        color: azure;
+        
+    }
+
+    button {
+
+border-color: rgb(66, 66, 65);
+margin-left: 5px;
+border-radius: 7px;
+font-style: oblique;
+font-weight: bold;
+padding-right: 10px;
+margin-right: 8px;
+}
+
+    li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 25px;
+        margin-left: 25px;
+        margin-right: 30px;
+        font-style: oblique;
+       
+    }
+li a {
+    color: white;
+    font-weight: bold;
+    
+}
+body{
+       background-color: rgb(141, 141, 107); 
+color: rgb(29, 28, 28);
+text-align: center;
+
+}
+h1
+{
+  
+    font: weight 790 ;
+   text-wrap:inherit ;
+    text-align: center;
+    font-style:oblique;
+    padding: 4%;
+    font-weight: bold;
+    font-display:inherit ;
+  font-style: italic;
+}
+
+label,input{
+    font-weight:500;
+    border-radius: 5px;
+    border-color: black;
+   
+    font-style: normal;
+margin: 3px;
+text-align: center;
+justify-items: center;
+
+}
+li a:hover{
+ 
+   
+    background-color: black;
+
+    border-radius: 30px; 
+ color: rgb(172, 85, 31);
+ 
+}
+
+
+button:hover{
+scroll-padding:initial;
+  background-color: aquamarine;
+}
+div {
+
+    padding-top:10px;
+
+border-radius: 10px;
+}
+ 
+br{
+    padding: bottom 20px;;
+}
+
+
+</style>
+
+</head>
+<body>
+    <nav class="navbar">
+     <div class="navdiv"> 
+          <div class="logo"><a>Q6 Official</a></div>
+         
+<ul>
+
+<li><a href="wwww.jesus.com">Home</a></li>
+<li><a href="">Contact</a></li>
+<li><a href="">About</a></li>
+<button style="color: rgb(14, 40, 244);"><a href="";text-decoration: underline;>Login</a></button>
+
+
+
+
+</ul>
+
+        </div>
+    </nav>
+   
+    <h1>Registration Form...</h1>
+    <label>Username: </label>
+    <input type="text" placeholder="username"><br>
+    <label type=""text-decoration>Password: </label>
+    <input type="password" placeholder="password">
+
+   
+   <div>
+   (OR)<br><br>
+<div style="font-weight: bolder; font-style: oblique;">Login With Your Email</div><br><br>
+
+
+<label>Enter Gmail</label>
+<input type="email" placeholder="email or phone">
+<label>Password</label>
+
+<input type="password" placeholder="enter your password"><br><br><br>
+<submit style="padding-right:14%;"><a href="">Forgot password?</a> </submit>
+
+
+
+
+   </div>
+
+   
+    
+</body>
+</html>
