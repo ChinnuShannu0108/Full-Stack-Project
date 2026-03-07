@@ -128,7 +128,7 @@ if(isset($_POST['name'])) {
         AND CURTIME() BETWEEN t.start AND t.end
         LIMIT 1
         ";
-
+        
         $result = $conn->query($sql);
 
         if($result && $result->num_rows > 0){
@@ -164,4 +164,5 @@ $conn->close();
 </div>
 
 </body>
+
 </html>
