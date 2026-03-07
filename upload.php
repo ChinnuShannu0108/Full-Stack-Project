@@ -9,6 +9,7 @@ if ($conn->connect_error) {
 <!DOCTYPE html>
 <html>
 <head>
+
     <title>Upload Profile Image</title>
     <style>
         body{
